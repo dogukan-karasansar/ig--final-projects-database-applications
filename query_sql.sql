@@ -60,4 +60,15 @@ CREATE TABLE address
 
 
 
+/* CREATE TABLE orders (
+    id int IDENTITY(1, 1) PRIMARY KEY,
+    book_id int NOT NULL,
+    order_piece_number int,
+    user_id int,
 
+    FOREIGN KEY (book_id) REFERENCES books(id),
+    FOREIGN KEY(user_id) REFERENCES users(id),
+
+
+)
+ */
